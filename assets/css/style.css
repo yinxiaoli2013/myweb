@@ -1,0 +1,141 @@
+/*初始*/
+body{ font-size:16px; color:#7d7d7d; background-color:#f3f3f3}
+a,a:hover{ text-decoration:none;}
+body,header,section,p{margin:0; padding:0; }
+
+/*字体*/
+.f15{color:#fff; font-size:15px;}
+.f-1{color:#16c0ff; font-size:16px;}
+.f-2{color:#929292; font-size:14px;}
+.f-3{color:#de3232;}
+.f14{color:#fff; font-size:14px;}
+.f-5{font-size:14px; color:#7d7d7d; font-weight:bold;}
+/*颜色*/
+.c-1{color:#ffa800;}
+.c-2{color:#ff7957;}
+.c-3{color:#cd0101;}
+
+/*符号标识*/
+.icon-tel,.icon-logout,.icon-settings,.icon-close,.img-card,.icon-notice,.icon-right-arrow,.icon-search,.card-logo,.icon-map,.icon-prev,.icon-next{ background:url(img/icon-mobile.png) 0 0 no-repeat;}
+
+.lower-trigle{ border-left:18px solid transparent;border-right:18px solid transparent;border-top:11px solid #e1e1e1; position:absolute; top:40px; left:17px;}
+.lower-trigle-inner{border-left:18px solid transparent;border-right:18px solid transparent;border-top:11px solid #f3f3f3; position:absolute; top:39px; left:17px;}
+.icon-tel{ background-position:-220px 0; width:38px; height:38px; display:block; position:absolute; top:1px; left:1px;}
+.icon-logout{background-position:-150px 0;line-height:33px;width:70px; height:33px; display:inline-block; position:absolute; top:10px; left:10px;}
+.icon-settings{background-position:-80px 0;line-height:33px;width:65px; height:33px; display:block; position:absolute; top:10px; right:10px;}
+.icon-close{ background-position:0 -80px;width:14px; height:14px; display:block; position:absolute; right:8px; top:8px;}
+.img-card{ background-position:0 0; width:70px; height:60px; display:inline-block;}
+.icon-notice{ background-position:0 -100px; width:14px; height:14px; display:inline-block; margin-top:8px;}
+.icon-right-arrow{ background-position:0 -60px; width:19px; height:19px; display:inline-block;}
+.icon-btn-red{ background-color:#da5454;background-image:-webkit-gradient(linear,0 0,0 100%,from(#ea6f6f),to(#c32c2c)); width:39px; height:17px; color:#FFF; font-size:12px; line-height:17px; display:inline-block; text-align:center;}
+.icon-search{ background-position:-80px -40px; width:21px; height:17px; display:inline-block; position:absolute; left:55px; top:11px;}
+.icon-btn-search{ background-color:#ededed; background-image:-webkit-gradient(linear,0 0,0 100%,from(#f4f4f4),to(#e6e6e6));width:250px; height:40px; border-top:1px solid #e4e4e4; border-left:1px solid #e4e4e4; border-right:1px solid #b5b5b5;border-bottom:1px solid #b5b5b5;  display:block; color:#656464; font-size:18px; line-height:40px; text-align:center; position:relative;}
+.icon-map{ background-position:0 -120px; width:12px; height:14px; display:inline-block; float:left; margin-top:7px;}
+.icon-prev{ background-position:0 -140px; width:18px; height:9px; display:inline-block;}
+.icon-next{ background-position:-20px -140px; width:18px; height:9px; display:inline-block;}
+
+/*头部*/
+.card-main-wrap{width:100%; margin:0 auto;}
+.card-header-bar{width:100%; height:59px; background-color:#31b7e9;background-image:-webkit-gradient(linear,0 0,0 100%,from(#50c3ee),to(#16ade5)); position:relative;}
+.card-logo-wrap{margin:0 auto; width:210px; padding-top:10px;}
+.card-logo{background-position:-80px -60px; height:40px; display:block;}
+.title-wrap{ font-size:20px; font-weight:bold; color:#FFF; line-height:59px; text-align:center;}
+
+
+/*内容*/
+.card-content-wrap{padding:30px 30px 100px 30px; width:260px; margin:0 auto;}
+
+/*S1_登录 form*/
+.card-num{width:250px; height:40px; border:1px solid #e1e1e1; position:relative; line-height:40px;}
+.card-num .card-name{color:#16c0ff;  margin-left:5px; font-size:16px;}
+.card-num .card-ipt{ width:160px; border:none; background-color:transparent; color:#7d7d7d; font-size:16px; padding:2px;}
+
+.card-tel{width:250px; height:40px; border:1px solid #ffd646; box-shadow:1px 1px 1px 1px #f9e0ba; position:relative; line-height:40px; background-color:#FFF;}
+.card-tel .tel-ipt{width:170px;margin-left:48px;font-size:16px; color:#bababa; border:none; background-color:transparent; padding:2px;}
+
+.btn-wrap{width:250px;margin-top:20px;}
+.btn-login{height:42px; width:100%; background-color:#37b9ec; text-align:center; color:#FFF; font-size:18px; border:none; background-image:-webkit-gradient(linear,0 0,0 100%,from(#58caf5),to(#18a8e4)); border-top:1px solid #67dbff; border-right:1px solid #0e759f;border-bottom:1px solid #0e759f; border-left:1px solid #67dbff;}
+
+/*S2_学生信息*/
+.card-tips{with:100%; line-height:26px; font-size:12px; background-color:#ffefd1; background-image:-webkit-gradient(linear,0 0,0 100%,from(#fffffe),to(#ffeac5)); border:1px solid #ffd48a; padding: 0 8px; margin:1px; position:relative;}
+.card-tips a{color:#7d7d7d;}
+.card-tips .tips-msg{ display:block; margin-right:18px;}
+.information-wrap{ padding:12px 15px; background-color:#FFF;}
+.information-wrap .stduent-information{display:inline-block;}
+.class-title{height:37px; line-height:37px; padding-left:20px; width:100%; font-size:20px; color:#FFF; background:#32b8e9; background-image:-webkit-gradient(linear,0 0, 0 100%,from(#32b8e9),to(#17ade5));}
+.class-msg{ height:32px; line-height:32px; padding-left:10px; color:#676767; font-size:14px;border-bottom:1px solid #dddddd;}
+.class-list{}
+.class-list li{border-top:1px solid #FFF; border-bottom:1px solid #dddddd; padding:8px 15px 8px 10px; background:#FFF; background-image:-webkit-gradient(linear,0 0, 0 100%,from(#f7f7f7),to(#fff));}
+.class-list li .class-wrap{width:75%;}
+.class-list li .class-wrap .class-name{color:#4d4d4d; font-size:14px;  font-weight:bold;}
+.class-list li .class-wrap .class-other{color:#7d7d7d; font-size:12px;}
+
+/*S3_详细信息*/
+.classlist-title{color:#4d4d4d; font-size:16px; line-height:20px; text-align:center; font-weight:bold; padding:0 15px;}
+.class-table{width:100%; border-collapse:collapse; background-color:#fff;}
+.class-table tr{height:30px;}
+.class-table tr td{ font-size:14px; font-weight:bold; border:1px solid #ededed;}
+.class-table tr td.name{ padding:0;text-align:right;width:40%;}
+.class-table tr td.detial{ padding:0 10px; text-align:left;}
+.class-total{ border-top:1px solid #fff; border-bottom:1px solid #ededed; background-image:-webkit-gradient(linear,0 0,0 100%, from(#f4f4f4),to(#fff)); padding:15px 0;width:100%;}
+.class-total p{ line-height:24px;width:100%;}
+.class-total .t-name{color:#16c0ff; font-size:14px; font-weight:bold; width:40%; padding:0 10px;  text-align:right;  display:inline-block;}
+.class-total .t-value{ color:#7d7d7d; font-size:14px; display:inline-block;}
+.search-layout{width:250px;  margin:28px auto;}
+/*S4_课程表*/
+.main-wrap{width:100%;}
+.date-ul{width:100%;}
+.date-ul li{width:14.2%;float:left;height:42px;background-image:-webkit-gradient(linear,0 0,0 100%, from(#f5f5f5),to(#fff)); font-size:16px; position:relative;}
+.date-ul li.on{ background:#dbf5ff; background-image:-webkit-gradient(linear,0 0,0 100%, from(#ebfaff),to(#d1f2ff));}
+.date-ul li .inner{border:1px solid #ededed;border-top:none;height:40px; text-align:center; line-height:42px; display:inline-block; width:100%;}
+.date-ul li .inner .title{ color:#4f4f4f; display:block; line-height:16px; padding-top:8px;}
+.date-ul li .inner .d-en{color:#4d4d4d; font-size:10px; display:block; line-height:14px;}
+.class-mark{border-left:7px solid transparent; border-top:7px solid transparent;border-right:7px solid #16c0ff;border-bottom:7px solid #16c0ff; position:absolute; right:2px; bottom:2px;}
+
+.date-switch{ }
+.date-switch li{width:50%; float:left; height:42px; position:relative;background-color:#fff; }
+.date-switch li .inner{border:1px solid #ededed;border-top:none; height:40px; text-align:center; line-height:42px; display:inline-block; width:100%;}
+.month-pre{ border-left:9px solid transparent;border-right:9px solid transparent;border-top:9px solid transparent; border-bottom:9px solid #bcbcbc; position:absolute; top:10px; left:10px;}
+.month-pre-inner{border-left:9px solid transparent;border-right:9px solid transparent;border-top:9px solid transparent; border-bottom:9px solid #fff;  position:absolute; top:11px; left:10px;}
+
+.month-next{ border-left:9px solid transparent;border-right:9px solid transparent;border-bottom:9px solid transparent; border-top:9px solid #bcbcbc; position:absolute; top:60px; left:37px;}
+.month-next-inner{border-left:9px solid transparent;border-right:9px solid transparent;border-bottom:9px solid transparent; border-top:9px solid #fff;  position:absolute; top:59px; left:37px;}
+
+
+
+/*S5_课程详情*/
+.course-ul{}
+.course-ul li{border-top:1px solid #fff; border-bottom:1px solid #dddddd; background-color:#fff; background-image:-webkit-gradient(linear,0 0,0 100%,from(#f4f4f4),to(#fff)); padding:1px;}
+.course-ul li .course-inner{border-left:3px solid #16c0ff; padding:10px 15px;}
+.course-ul li .course-inner .c-year{font-size:14px; color:#7d7d7d; font-weight:bold; margin-right:30px;}
+.course-ul li .course-inner .c-time{font-size:14px; color:#7d7d7d;}
+.course-ul li .course-inner .c-address{font-size:14px; color:#7d7d7d; line-height:28px;}
+.course-ul li .show-detail{padding:15px 0 15px 20px;}
+.course-ul li .show-detail p{font-size:14px; line-height:27px; color:#7d7d7d;}
+
+/*尾部*/
+.card-footer{width:260px; margin:0 auto; text-align:center;  padding:30px 0 10px 0;}
+.card-footer .footer-copyright{color:#909090;}
+.card-footer .footer-copyright p{ font-size:12px; line-height:24px;}
+
+/****教师部分****/
+
+/*主界面*/
+.account-show{width:180px; height:18px; line-height:18px; position:relative; background:#16c0ff;}
+.icon-account{ background:url(img/icon-account-arrow.png) 0 0 no-repeat; width:10px; height:18px; display:block; position:absolute; top:0; left:-10px;}
+
+.menu-list{}
+.menu-list li{width:33.3%; height:150px; border-top:2px solid #e2e2e2; border-bottom:1px solid #fff;background:#eaeaea; background-image:-webkit-gradient(linear,0 0,0 100%, from(#f7f7f7),to(#ebebeb)); float:left;}
+.menu-list li .right-line{float:left; height:150px; border-right:1px solid #fff;}
+
+.menu-wrap{width:65px; margin:20px auto 0; cursor:pointer;}
+.menu-wrap dt{}
+.menu-wrap dd{font-size:14px; line-height:20px;} 
+.menu-wrap dd p{text-align:center;}
+.menu-course{ background:url(img/icon-course.png) 0 0 no-repeat; width:65px; height:65px; display:block;}
+.menu-sync{ background:url(img/icon-sync.png) 0 0 no-repeat; width:65px; height:65px; display:block;}
+.menu-language{ background:url(img/icon-language.png) 0 0 no-repeat; width:65px; height:65px; display:block;}
+
+.logo-teacher{ background:url(img/logo-teacher.png) 0 0 no-repeat; width:210px; height:40px; display:block;}
+
+
